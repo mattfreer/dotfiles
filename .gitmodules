@@ -14,3 +14,7 @@
 	path = bundle/vim-matchit
 	url = https://github.com/edsono/vim-matchit.git
   ignore = untracked
+[submodule "bundle/vim-ruby"]
+	path = bundle/vim-ruby
+	url = https://github.com/vim-ruby/vim-ruby.git
+  ignore = untracked

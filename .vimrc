@@ -1,8 +1,6 @@
 call pathogen#runtime_append_all_bundles()
 call pathogen#helptags()
 
-#runtime macros/matchit.vim
-
 syntax on
 set background=light
 set autoindent
