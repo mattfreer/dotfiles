@@ -18,6 +18,3 @@
 	path = bundle/vim-ruby
 	url = https://github.com/vim-ruby/vim-ruby.git
   ignore = untracked
-[submodule "snipmate.vim"]
-	path = snipmate.vim
-	url = https://github.com/msanders/snipmate.vim.git
