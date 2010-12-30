@@ -21,4 +21,3 @@ autocmd BufWritePre * :%s/\s\+$//e
 syntax on
 
 
-
