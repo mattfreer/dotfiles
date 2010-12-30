@@ -1,7 +1,11 @@
+
+filetype off
+filetype on
+
 call pathogen#runtime_append_all_bundles()
 call pathogen#helptags()
+filetype plugin indent on
 
-syntax on
 set background=light
 set autoindent
 set smartindent
@@ -14,4 +18,7 @@ set ruler
 set vb t_vb=
 set incsearch
 autocmd BufWritePre * :%s/\s\+$//e
-filetype plugin on
+syntax on
+
+
+
