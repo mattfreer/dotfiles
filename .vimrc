@@ -20,3 +20,4 @@ set incsearch
 autocmd BufWritePre * :%s/\s\+$//e
 syntax on
 
+let g:ragtag_global_maps = 1
