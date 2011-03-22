@@ -17,6 +17,13 @@ set incsearch
 set ruler
 set vb t_vb=
 set incsearch
+
+"show line-numbers
+set number
+
+"always show file name at bottom of window
+set ls=2
+
 autocmd BufWritePre * :%s/\s\+$//e
 syntax on
 let g:ragtag_global_maps = 1
