@@ -43,12 +43,12 @@ map <F4> :execute "vimgrep /" . expand("<cword>") . "/jg **" <Bar> cw<CR>
 command GREP :execute 'vimgrep /'.expand('<cword>').'/gj '.expand('%') | copen
 
 "Remap the arrow keys so they are diabled
-noremap  <Up> ""
-noremap! <Up> <Esc>
-noremap  <Down> ""
-noremap! <Down> <Esc>
-noremap  <Left> ""
-noremap! <Left> <Esc>
-noremap  <Right> ""
-noremap! <Right> <Esc>
+"noremap  <Up> ""
+"noremap! <Up> <Esc>
+"noremap  <Down> ""
+"noremap! <Down> <Esc>
+"noremap  <Left> ""
+"noremap! <Left> <Esc>
+"noremap  <Right> ""
+"noremap! <Right> <Esc>
 
