@@ -32,15 +32,6 @@ let g:ragtag_global_maps = 1
 
 "Custom Mappings ----------------------------------------------------------
 
-"This mapping uses <cword> to get the word under the cursor, and searches for
-"it in the current directory and all subdirectories, opening the quickfix
-"window when done:
-map <F4> :execute "vimgrep /" . expand("<cword>") . "/jg **" <Bar> cw<CR>
-
-
-"This mapping uses <cword> to get the word under the cursor, but also
-"uses % to limit the search to the current file only:
-command GREP :execute 'vimgrep /'.expand('<cword>').'/gj '.expand('%') | copen
 
 "Remap the arrow keys so they are diabled
 "noremap  <Up> ""
