@@ -36,3 +36,6 @@
 [submodule "bundle/nerdcommenter"]
 	path = bundle/nerdcommenter
 	url = http://github.com/scrooloose/nerdcommenter.git
+[submodule "bundle/scratch"]
+	path = bundle/scratch
+	url = http://github.com/vim-scripts/scratch.vim.git
