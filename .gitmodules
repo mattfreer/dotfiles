@@ -45,6 +45,3 @@
 [submodule "bundle/scss-syntax"]
 	path = bundle/scss-syntax
 	url = http://github.com/cakebaker/scss-syntax.vim.git
-[submodule "bundle/tagbar"]
-	path = bundle/tagbar
-	url = http://github.com/majutsushi/tagbar.git
