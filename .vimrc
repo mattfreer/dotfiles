@@ -32,5 +32,5 @@ let g:ragtag_global_maps = 1
 let $JS_CMD='node'
 
 "Specifies location of marvim macro repository
-let marvim_store = './.marvim'
+let marvim_store = './macro'
 
