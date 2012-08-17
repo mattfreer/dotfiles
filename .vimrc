@@ -1,6 +1,6 @@
 
+filetype on
 filetype off
-"filetype on
 
 call pathogen#runtime_append_all_bundles()
 call pathogen#helptags()
@@ -31,18 +31,6 @@ let g:ragtag_global_maps = 1
 "Use Node.js for JavaScript interpretation
 let $JS_CMD='node'
 
-
-
-"Custom Mappings ----------------------------------------------------------
-
-
-"Remap the arrow keys so they are diabled
-"noremap  <Up> ""
-"noremap! <Up> <Esc>
-"noremap  <Down> ""
-"noremap! <Down> <Esc>
-"noremap  <Left> ""
-"noremap! <Left> <Esc>
-"noremap  <Right> ""
-"noremap! <Right> <Esc>
+"Specifies location of marvim macro repository
+let marvim_store = './.marvim'
 
