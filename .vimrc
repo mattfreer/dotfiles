@@ -24,11 +24,6 @@ set number
 "always show file name at bottom of window
 set ls=2
 
-"solarized color scheme
-syntax enable
-set background=dark
-colorscheme solarized
-
 autocmd BufWritePre * :%s/\s\+$//e
 syntax on
 let g:ragtag_global_maps = 1
