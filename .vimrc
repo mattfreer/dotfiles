@@ -24,6 +24,11 @@ set number
 "always show file name at bottom of window
 set ls=2
 
+"solarized color scheme
+syntax enable
+set background=dark
+colorscheme solarized
+
 autocmd BufWritePre * :%s/\s\+$//e
 syntax on
 let g:ragtag_global_maps = 1
@@ -35,3 +40,4 @@ let $JS_CMD='node'
 let marvim_store = '/Users/matt/.vim/.marvim'
 let marvim_find_key = '<Space>' " change find key from <F2> to 'space'
 let marvim_store_key = 'ms'     " change store key from <F3> to 'ms'
+
