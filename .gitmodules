@@ -48,3 +48,6 @@
 [submodule "bundle/marvim"]
 	path = bundle/marvim
 	url = https://github.com/vim-scripts/marvim.git
+[submodule "vim-colors-solarized"]
+	path = vim-colors-solarized
+	url = git://github.com/altercation/vim-colors-solarized.git
