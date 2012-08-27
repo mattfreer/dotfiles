@@ -48,3 +48,6 @@
 [submodule "bundle/marvim"]
 	path = bundle/marvim
 	url = https://github.com/vim-scripts/marvim.git
+[submodule "bundle/vim-notes"]
+	path = bundle/vim-notes
+	url = https://github.com/xolox/vim-notes.git
