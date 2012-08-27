@@ -35,4 +35,5 @@ let $JS_CMD='node'
 let marvim_store = '/Users/matt/.vim/.marvim'
 let marvim_find_key = '<Space>' " change find key from <F2> to 'space'
 let marvim_store_key = 'ms'     " change store key from <F3> to 'ms'
+let marvim_prefix = 0           " disable default syntax based prefix
 
