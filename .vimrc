@@ -1,5 +1,4 @@
 
-set nocompatible
 filetype on
 filetype off
 
@@ -38,3 +37,9 @@ let marvim_find_key = '<Space>' " change find key from <F2> to 'space'
 let marvim_store_key = 'ms'     " change store key from <F3> to 'ms'
 let marvim_prefix = 0           " disable default syntax based prefix
 
+"vim-note config
+:let g:notes_directory = '/Users/matt/Documents/Resources/vim-notes/Notes'
+:let g:notes_indexfile =  '/Users/matt/Documents/Resources/vim-notes/.config/index.pickle'
+:let g:notes_tagsindex =  '/Users/matt/Documents/Resources/vim-notes/.config/index.tags'
+
+highlight link notesRealURL Underlined
