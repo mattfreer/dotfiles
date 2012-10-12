@@ -31,12 +31,6 @@ let g:ragtag_global_maps = 1
 "Use Node.js for JavaScript interpretation
 let $JS_CMD='node'
 
-"Specifies location of marvim macro repository
-let marvim_store = '/Users/matt/.vim/.marvim'
-let marvim_find_key = '<Space>' " change find key from <F2> to 'space'
-let marvim_store_key = 'ms'     " change store key from <F3> to 'ms'
-let marvim_prefix = 0           " disable default syntax based prefix
-
 "vim-note config
 :let g:notes_directory = '/Users/matt/Documents/Resources/vim-notes/Notes'
 :let g:notes_indexfile =  '/Users/matt/Documents/Resources/vim-notes/.config/index.pickle'
