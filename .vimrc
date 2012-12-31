@@ -31,9 +31,4 @@ let g:ragtag_global_maps = 1
 "Use Node.js for JavaScript interpretation
 let $JS_CMD='node'
 
-"vim-note config
-:let g:notes_directory = '/Users/matt/Documents/Resources/vim-notes/Notes'
-:let g:notes_indexfile =  '/Users/matt/Documents/Resources/vim-notes/.config/index.pickle'
-:let g:notes_tagsindex =  '/Users/matt/Documents/Resources/vim-notes/.config/index.tags'
-
 highlight link notesRealURL Underlined
