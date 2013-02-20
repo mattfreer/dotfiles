@@ -17,8 +17,6 @@ set incsearch
 set ruler
 set vb t_vb=
 set incsearch
-
-"show line-numbers
 set number
 
 "always show file name at bottom of window
@@ -31,4 +29,4 @@ let g:ragtag_global_maps = 1
 "Use Node.js for JavaScript interpretation
 let $JS_CMD='node'
 
-highlight link notesRealURL Underlined
+colors zenburn
