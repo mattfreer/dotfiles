@@ -34,4 +34,4 @@ let g:ragtag_global_maps = 1
 "Use Node.js for JavaScript interpretation
 let $JS_CMD='node'
 
-colors zenburn
+nmap <leader>z :tabedit %<CR>
