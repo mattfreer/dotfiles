@@ -21,6 +21,7 @@ set ruler
 set vb t_vb=
 set incsearch
 set number
+set spell
 
 "always show file name at bottom of window
 set ls=2
