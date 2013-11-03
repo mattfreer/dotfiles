@@ -51,3 +51,6 @@
 [submodule "bundle/zenburn"]
 	path = bundle/zenburn
 	url = https://github.com/jnurmine/Zenburn.git
+[submodule "bundle/tortoise_typing"]
+	path = bundle/tortoise_typing
+	url = https://github.com/thanthese/Tortoise-Typing.git
