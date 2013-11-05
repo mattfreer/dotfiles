@@ -9,7 +9,7 @@ endif
 
 filetype plugin indent on
 
-set background=light
+set background=dark
 set autoindent
 set smartindent
 set shiftwidth=2
