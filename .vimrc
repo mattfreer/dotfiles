@@ -39,3 +39,4 @@ inoremap <expr> j ((pumvisible())?("\<C-n>"):("j"))
 inoremap <expr> k ((pumvisible())?("\<C-p>"):("k"))
 
 nmap <leader>z :tabedit %<CR>
+nmap <leader>n :set number!<CR>
