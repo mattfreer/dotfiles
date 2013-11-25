@@ -37,6 +37,9 @@ let g:ragtag_global_maps = 1
 "Use Node.js for JavaScript interpretation
 let $JS_CMD='node'
 
+" Mimic the functionality of Ctrl-N (word-completion)
+inoremap ;/ <C-N>
+
 "Allow j and k to be used in the word completion menu
 inoremap <expr> j ((pumvisible())?("\<C-n>"):("j"))
 inoremap <expr> k ((pumvisible())?("\<C-p>"):("k"))
