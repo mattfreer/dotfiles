@@ -46,3 +46,23 @@ inoremap <expr> k ((pumvisible())?("\<C-p>"):("k"))
 
 nmap <leader>z :tabedit %<CR>
 nmap <leader>n :set number!<CR>
+
+" Mimic the functionality of Ctrl-W (split navigation)
+nnoremap ;w <C-W>
+
+" Mimic the functionality of the Escape key
+inoremap ;l <Esc>
+
+" Mimic the functionality of the Escape key
+vnoremap ;l <Esc>
+
+" From Insert mode, escape to Normal mode and save
+inoremap ;k <Esc>:update<Cr>
+
+" From Insert mode, escape to Normal mode, save and return to Insert mode
+inoremap ;j <C-O>:update<Cr>
+
+" From Normal mode, save and return to Normal mode
+nnoremap ;j :update<CR>
+
+
