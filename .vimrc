@@ -27,6 +27,9 @@ set hlsearch
 "always show file name at bottom of window
 set ls=2
 
+" change the mapleader from \ to ,
+let mapleader=","
+
 autocmd BufWritePre * :%s/\s\+$//e
 syntax on
 let g:ragtag_global_maps = 1
