@@ -54,3 +54,6 @@
 [submodule "bundle/tortoise_typing"]
 	path = bundle/tortoise_typing
 	url = https://github.com/thanthese/Tortoise-Typing.git
+[submodule "bundle/nerdtree"]
+	path = bundle/nerdtree
+	url = https://github.com/scrooloose/nerdtree.git
