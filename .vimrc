@@ -46,9 +46,14 @@ inoremap <expr> k ((pumvisible())?("\<C-p>"):("k"))
 
 nmap <leader>z :tabedit %<CR>
 nmap <leader>n :set number!<CR>
+nmap <leader>t :NERDTree<CR>
+
+" Find next/last occurrence of word
+nmap <leader>f <S-*>
+nmap <leader>d <S-#>
 
 " Mimic the functionality of Ctrl-W (split navigation)
-nnoremap ;w <C-W>
+nmap <leader>w <C-W>
 
 " Mimic the functionality of the Escape key
 inoremap ;l <Esc>
