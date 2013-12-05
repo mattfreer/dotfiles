@@ -47,6 +47,7 @@ inoremap <expr> k ((pumvisible())?("\<C-p>"):("k"))
 nmap <leader>z :tabedit %<CR>
 nmap <leader>n :set number!<CR>
 nmap <leader>t :NERDTree<CR>
+nmap <leader>q :q<CR>
 
 " Find next/last occurrence of word
 nmap <leader>f <S-*>
