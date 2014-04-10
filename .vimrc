@@ -74,6 +74,9 @@ nnoremap <leader>) /)<Enter>i
 "find the next occurrence of "{", go to it, and enter insert mode
 nnoremap <leader>{ /{<Enter>a
 "
+"find the next occurrence of "}", go to it, and enter insert mode
+nnoremap <leader>} /}<Enter>i
+
 " Mimic the functionality of the Escape key
 inoremap ;l <Esc>
 
