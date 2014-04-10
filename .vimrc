@@ -77,6 +77,9 @@ nnoremap <leader>{ /{<Enter>a
 "find the next occurrence of "}", go to it, and enter insert mode
 nnoremap <leader>} /}<Enter>i
 
+"Jump backward by words (no punctuation) and enter insert mode
+nnoremap <leader>b <S-b>i
+
 " Mimic the functionality of the Escape key
 inoremap ;l <Esc>
 
