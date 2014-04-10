@@ -92,6 +92,9 @@ inoremap ;l <Esc>
 " Mimic the functionality of the Escape key
 vnoremap ;l <Esc>
 
+" Select to end of line
+vnoremap <leader>l $
+
 " From Insert mode, escape to Normal mode and save
 inoremap ;k <Esc>:update<Cr>
 
