@@ -95,6 +95,9 @@ vnoremap ;l <Esc>
 " Select to end of line
 vnoremap <leader>l $
 
+" Select to start of line
+vnoremap <leader>h ^
+
 " From Insert mode, escape to Normal mode and save
 inoremap ;k <Esc>:update<Cr>
 
