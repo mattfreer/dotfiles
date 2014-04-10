@@ -62,6 +62,9 @@ nmap <leader>r <C-R>
 " Mimic the functionality of $a (go to end of line, and enter insert mode)
 nnoremap <leader>l $a
 "
+" Mimic the functionality of ^i (go to start of line, and enter insert mode)
+nnoremap <leader>h ^i
+
 " Mimic the functionality of the Escape key
 inoremap ;l <Esc>
 
