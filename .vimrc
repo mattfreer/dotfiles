@@ -65,11 +65,8 @@ nnoremap <leader>l $a
 " Mimic the functionality of ^i (go to start of line, and enter insert mode)
 nnoremap <leader>h ^i
 
-"find the next occurrence of "(", go to it, and enter insert mode
-nnoremap <leader>( /(<Enter>a
-
 "find the next occurrence of ")", go to it, and enter insert mode
-nnoremap <leader>) /)<Enter>i
+nnoremap <leader>( /)<Enter>i
 
 "find the next occurrence of "{", go to it, and enter insert mode
 nnoremap <leader>{ /{<Enter>a
