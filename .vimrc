@@ -98,6 +98,9 @@ vnoremap <leader>l $
 " Select to start of line
 vnoremap <leader>h ^
 
+" Format
+vnoremap ff =
+
 " From Insert mode, escape to Normal mode and save
 inoremap ;k <Esc>:update<Cr>
 
