@@ -113,5 +113,9 @@ inoremap ;j <C-O>:update<Cr>
 
 " From Normal mode, save and return to Normal mode
 nnoremap ;j :update<CR>
+"
+" From Normal mode, Ctrl-H mapping for vim-howdoi plugin
+"nnoremap <leader>k <C-h>
+nmap ;, <C-h>
 
 
