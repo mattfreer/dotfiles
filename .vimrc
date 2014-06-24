@@ -23,6 +23,7 @@ set incsearch
 set number
 set spell
 set hlsearch
+set iskeyword+=-
 
 "always show file name at bottom of window
 set ls=2
