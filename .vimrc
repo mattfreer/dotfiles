@@ -66,26 +66,29 @@ nnoremap <leader>l $a
 " Mimic the functionality of ^i (go to start of line, and enter insert mode)
 nnoremap <leader>h ^i
 
-"find the next occurrence of ")", go to it, and enter insert mode
-nnoremap <leader>( /)<Enter>i
+"find the next occurrence of "(", go to it, and enter insert mode
+nnoremap <leader>( /(<Enter>a
 
-"find the previous occurrence of ")", go to it, and enter insert mode
-nnoremap <leader>) ?)<Enter>i
+"find the next occurrence of ")", go to it, and enter insert mode
+nnoremap <leader>) /(<Enter>%i,<Space>
 
 "find the next occurrence of "{", go to it, and enter insert mode
 nnoremap <leader>{ /{<Enter>a
 
-"find the previous occurrence of "}", go to it, and enter insert mode
-nnoremap <leader>} ?}<Enter>i
+"find the next occurrence of "}", go to it, and enter insert mode
+nnoremap <leader>} /{<Enter>%O
 
 "find the next occurrence of "[", go to it, and enter insert mode
 nnoremap <leader>[ /[<Enter>a
 
-"find the previous occurrence of "]", go to it, and enter insert mode
-nnoremap <leader>] ?]<Enter>i
+"find the next occurrence of "]", go to it, and enter insert mode
+nnoremap <leader>] /[<Enter>%i,<Space>
 
 " Search and replace
 nnoremap <leader>s :%s/<c-r>"/
+
+" Grep
+nnoremap <leader>g :lvimgrep /<c-r>"/jg
 
 "Jump backward by words (no punctuation) and enter insert mode
 nnoremap <leader>b <S-b>i
