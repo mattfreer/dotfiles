@@ -84,12 +84,6 @@ nnoremap <leader>[ /[<Enter>a
 "find the next occurrence of "]", go to it, and enter insert mode
 nnoremap <leader>] /[<Enter>%i,<Space>
 
-" Search and replace
-nnoremap <leader>s :%s/<c-r>"/
-
-" Grep
-nnoremap <leader>g :lvimgrep /<c-r>"/jg
-
 "Jump backward by words (no punctuation) and enter insert mode
 nnoremap <leader>b <S-b>i
 
@@ -107,6 +101,12 @@ vnoremap <leader>h ^
 
 " Format
 vnoremap ff =
+
+" Search and replace for visualy selected text
+vnoremap <leader>s y:%s/<c-r>"/
+
+" Grep
+vnoremap <leader>g y:lvimgrep /<c-r>"/jg
 
 " From Insert mode, escape to Normal mode and save
 inoremap ;k <Esc>:update<Cr>
