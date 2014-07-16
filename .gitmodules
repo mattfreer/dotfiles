@@ -57,3 +57,6 @@
 [submodule "bundle/howdoi"]
 	path = bundle/howdoi
 	url = https://github.com/laurentgoudet/vim-howdoi.git
+[submodule "bundle/base16"]
+	path = bundle/base16
+	url = https://github.com/chriskempson/base16-vim.git

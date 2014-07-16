@@ -4,7 +4,6 @@ filetype off
 
 if isdirectory(expand("~/.vim"))
   execute pathogen#infect()
-  colors zenburn
 endif
 
 filetype plugin indent on
@@ -24,6 +23,8 @@ set number
 set spell
 set hlsearch
 set iskeyword+=-
+set background=dark
+colorscheme base16-default
 
 "always show file name at bottom of window
 set ls=2
