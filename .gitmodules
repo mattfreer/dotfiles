@@ -63,3 +63,6 @@
 [submodule "bundle/git-gutter"]
 	path = bundle/git-gutter
 	url = git://github.com/airblade/vim-gitgutter.git
+[submodule "bundle/vim-elixir"]
+	path = bundle/vim-elixir
+	url = git@github.com:elixir-lang/vim-elixir.git
