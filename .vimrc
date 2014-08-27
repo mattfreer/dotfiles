@@ -23,6 +23,11 @@ set number
 set spell
 set hlsearch
 set iskeyword+=-
+
+"show all characters that aren't whitespace
+set listchars=eol:$,tab:>-,trail:~,extends:>,precedes:<
+set list
+
 set background=dark
 colorscheme base16-default
 
