@@ -28,6 +28,9 @@ set iskeyword+=-
 set listchars=eol:$,tab:>-,trail:~,extends:>,precedes:<
 set list
 
+" highlight margin after specified textwidth
+set colorcolumn=72
+
 set background=dark
 colorscheme base16-default
 
