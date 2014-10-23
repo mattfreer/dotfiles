@@ -136,3 +136,14 @@ nmap <leader>g :GitGutterNextHunk<CR>
 nmap <leader>G :GitGutterPrevHunk<CR>
 nmap <Leader>gu :GitGutterRevertHunk<CR>
 
+"customization of vimdiff view:
+" turn off code folding
+" turn on wrapping for long lines
+" add mapping for jumping to next change
+function! Diff()
+  if &diff
+    set foldlevel=999999
+    :windo setl wrap
+    noremap <space> ]cz.
+  endif
+endfunction
