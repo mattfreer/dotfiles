@@ -130,4 +130,9 @@ nnoremap ;j :update<CR>
 "nnoremap <leader>k <C-h>
 nmap ;, <C-h>
 
+" GitGutter Mappings
+let g:gitgutter_map_keys = 0
+nmap <leader>g :GitGutterNextHunk<CR>
+nmap <leader>G :GitGutterPrevHunk<CR>
+nmap <Leader>gu :GitGutterRevertHunk<CR>
 
