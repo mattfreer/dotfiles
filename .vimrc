@@ -40,6 +40,9 @@ set ls=2
 " change the mapleader from \ to ,
 let mapleader=","
 
+" enable jsx highlighting in .js files
+let g:jsx_ext_required = 0
+
 autocmd BufWritePre * :%s/\s\+$//e
 syntax on
 let g:ragtag_global_maps = 1
