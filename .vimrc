@@ -43,6 +43,9 @@ let mapleader=","
 " enable jsx highlighting in .js files
 let g:jsx_ext_required = 0
 
+" lint JavaScript files after saving it
+let jshint2_save = 1
+
 autocmd BufWritePre * :%s/\s\+$//e
 syntax on
 let g:ragtag_global_maps = 1
