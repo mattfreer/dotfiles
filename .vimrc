@@ -48,7 +48,6 @@ let jshint2_save = 1
 
 autocmd BufWritePre * :%s/\s\+$//e
 syntax on
-let g:ragtag_global_maps = 1
 
 "Use Node.js for JavaScript interpretation
 let $JS_CMD='node'
