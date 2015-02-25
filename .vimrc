@@ -43,8 +43,8 @@ let mapleader=","
 " enable jsx highlighting in .js files
 let g:jsx_ext_required = 0
 
-" lint JavaScript files after saving it
-let jshint2_save = 1
+" lint javascript with jsxhint
+let g:syntastic_javascript_checkers = ['jsxhint']
 
 autocmd BufWritePre * :%s/\s\+$//e
 syntax on
