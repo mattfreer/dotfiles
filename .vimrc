@@ -46,6 +46,9 @@ let g:jsx_ext_required = 0
 " lint javascript with jsxhint
 let g:syntastic_javascript_checkers = ['jsxhint']
 
+" disable markdown folding
+let g:vim_markdown_folding_disabled=1
+
 autocmd BufWritePre * :%s/\s\+$//e
 syntax on
 
