@@ -66,3 +66,12 @@
 [submodule "bundle/vim-markdown"]
 	path = bundle/vim-markdown
 	url = git@github.com:plasticboy/vim-markdown.git
+[submodule "bundle/tlib"]
+	path = bundle/tlib
+	url = https://github.com/tomtom/tlib_vim.git
+[submodule "bundle/vim-addon-mw-utils"]
+	path = bundle/vim-addon-mw-utils
+	url = https://github.com/MarcWeber/vim-addon-mw-utils.git
+[submodule "bundle/vim-snipmate"]
+	path = bundle/vim-snipmate
+	url = https://github.com/garbas/vim-snipmate.git
