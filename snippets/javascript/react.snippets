@@ -1,0 +1,70 @@
+snippet component
+	"use strict";
+
+	var React = require("react");
+
+	const ${1:className} = React.createClass({
+	});
+
+	module.exports = ${2:className};
+
+snippet propTypes
+	propTypes: {
+		${1:propName}: React.PropTypes.${2:array|bool|func|number|object|string|element|instanceOf(Foo)}.isRequired
+	},
+
+snippet getDefaultProps
+	getDefaultProps() {
+		return {
+			${1:propName}: ${2:propValue}
+		};
+	},
+
+snippet getInitialState
+	getInitialState() {
+		return {
+			${1:propName}: ${2:propValue}
+		};
+	},
+
+snippet componentWillMount
+	componentWillMount() {
+		${1}
+	},
+
+snippet componentDidMount
+	componentDidMount() {
+		${1}
+	},
+
+snippet componentWillReceiveProps
+	componentWillReceiveProps(nextProps) {
+		${1}
+	},
+
+snippet shouldComponentUpdate
+	shouldComponentUpdate(nextProps, nextState) {
+		return ${1:boolean}
+	},
+
+snippet componentWillUpdate
+	componentWillUpdate(nextProps, nextState) {
+		${1}
+	},
+
+snippet componentDidUpdate
+	componentDidUpdate(prevProps, prevState) {
+		${1}
+	},
+
+snippet componentWillUnmount
+	componentWillUnmount() {
+		${1}
+	},
+
+snippet render
+	render() {
+		return (
+			${1}
+		);
+	}
