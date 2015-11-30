@@ -1,0 +1,7 @@
+snippet task_async_ex
+	task = Task.async(fn -> ${1:My.Function()} end)
+	Task.await(task)
+
+snippet task_await_ex
+	Task.await(task)
+

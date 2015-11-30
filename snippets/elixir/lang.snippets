@@ -1,0 +1,92 @@
+snippet defmodule_ex
+	defmodule ${1:Full.Name} do
+		${2}
+	end
+
+snippet def_ex
+	def ${1} do
+		${2}
+	end
+
+snippet defp_ex
+	defp ${1} do
+		${2}
+	end
+
+snippet def_with_guard_ex
+	def (${1:arg}) ${2:is_number(arg)} do
+		${3}
+	end
+
+snippet defstruct_ex
+	defstruct ${1:key}: ${2:default_value}
+
+snippet attribute_ex
+	@${1:name} ${2:value}
+
+snippet @attribute_ex
+	@${1:name} ${2:value}
+
+
+snippet fn_anonymous_ex
+	fn(${1}) -> ${2} end
+
+snippet fun_anonymous_ex
+	fn(${1}) -> ${2} end
+
+snippet call_anonymous_ex
+	${1:name}.()
+
+snippet call_erlang_fn_ex
+	:${1:module}.${2:function}
+
+snippet alias_ex
+	alias ${1:Full.Name}, as: ${2:ShortName}
+
+snippet require_ex
+	require ${1:Module.Containing.Macros}
+
+snippet import_ex
+	import ${1:Module}, only: [${2:function}: ${3:arity}]
+
+snippet case_ex
+	case ${1} do
+		${2:match} -> ${3}
+	end
+
+snippet cond_ex
+	cond do
+		${1:if} ->
+			${2:then}
+
+		true ->
+			${3:else}
+	end
+
+snippet tupple_ex
+	 { ${1}, ${2} }
+
+snippet list_ex
+	[${1}, ${2}]
+
+snippet keyword_list_ex
+	#can contain duplicate keys
+	[${1:key}: ${2:value}]
+
+snippet map_ex
+	#no duplicate keys
+	%{ ${1:key} => ${2:value} }
+
+snippet range_ex
+	${1:start}..${2:end}
+
+snippet spawn_ex
+	pid = spawn(fn -> ${1:function_name}() end)
+
+snippet error_custom_ex
+	defmodule ${1:Full.Name} do
+		defexception message: "${2}"
+	end
+
+snippet error_raise_ex
+	raise ${1:ErrorType}, message: "${2}"

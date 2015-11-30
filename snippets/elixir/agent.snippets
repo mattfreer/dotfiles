@@ -1,0 +1,11 @@
+snippet agent_start_link_ex
+	{:ok, pid} = Agent.start_link(fn -> ${1:initial_state} end, name: ${2:$__MODULE__})
+
+snippet agent_update_ex
+	${1::ok} = Agent.update(pid, fn(state) -> ${2:state + 1} end)
+
+snippet agent_get_ex
+	${1} = Agent.get(pid, fn(state) -> ${2:state} end)
+
+snippet agent_stop_ex
+	Agent.stop(pid)

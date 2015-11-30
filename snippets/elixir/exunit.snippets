@@ -1,0 +1,34 @@
+snippet test_case_ex
+	defmodule ${1:module}Test do
+		use ExUnit.Case
+
+		${2}
+	end
+
+snippet test_setup_ex
+	# called before each test is run
+	setup do
+		on_exit fn ->
+		end
+
+		:ok
+	end
+
+snippet test_setup_with_context_ex
+	# called before each test is run
+	setup do
+		on_exit fn ->
+		end
+
+		{:ok, ${1:key}: ${2:value}}
+	end
+
+snippet test_with_context_ex
+	test "${1}", %{${2:key}: ${3:value}} do
+		${4}
+	end
+
+snippet test_simple_ex
+	test "${1}" do
+		${2}
+	end

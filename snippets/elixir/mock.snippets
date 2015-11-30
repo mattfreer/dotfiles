@@ -1,0 +1,14 @@
+snippet with_mock_ex
+	with_mock ${1:module}, [:passthrough], [ ${2:func_name}: fn -> ${3:func_body} end] do
+		${4}
+	end
+
+snippet mock_ex
+	with_mock ${1:module}, [:passthrough], [ ${2:func_name}: fn -> ${3:func_body} end] do
+		${4}
+	end
+
+snippet test_mock_ex
+	with_mock ${1:module}, [:passthrough], [ ${2:func_name}: fn -> ${3:func_body} end] do
+		${4}
+	end
