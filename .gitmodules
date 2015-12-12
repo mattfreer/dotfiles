@@ -23,13 +23,13 @@
 	url = https://github.com/tpope/vim-haml.git
 [submodule "bundle/nerdcommenter"]
 	path = bundle/nerdcommenter
-	url = http://github.com/scrooloose/nerdcommenter.git
+	url = https://github.com/scrooloose/nerdcommenter.git
 [submodule "bundle/scratch"]
 	path = bundle/scratch
-	url = http://github.com/vim-scripts/scratch.vim.git
+	url = https://github.com/vim-scripts/scratch.vim.git
 [submodule "bundle/scss-syntax"]
 	path = bundle/scss-syntax
-	url = http://github.com/cakebaker/scss-syntax.vim.git
+	url = https://github.com/cakebaker/scss-syntax.vim.git
 [submodule "bundle/vim-eunuch"]
 	path = bundle/vim-eunuch
 	url = https://github.com/tpope/vim-eunuch.git
@@ -44,7 +44,7 @@
 	url = https://github.com/ekalinin/Dockerfile.vim.git
 [submodule "bundle/vim-golang"]
 	path = bundle/vim-golang
-	url = git://github.com/jnwhiteh/vim-golang.git
+	url = https://github.com/jnwhiteh/vim-golang.git
 [submodule "bundle/howdoi"]
 	path = bundle/howdoi
 	url = https://github.com/laurentgoudet/vim-howdoi.git
@@ -62,10 +62,10 @@
 	url = https://github.com/groenewege/vim-less.git
 [submodule "bundle/syntastic"]
 	path = bundle/syntastic
-	url = git@github.com:scrooloose/syntastic.git
+	url = https://github.com/scrooloose/syntastic.git
 [submodule "bundle/vim-markdown"]
 	path = bundle/vim-markdown
-	url = git@github.com:plasticboy/vim-markdown.git
+	url = https://github.com/plasticboy/vim-markdown.git
 [submodule "bundle/tlib"]
 	path = bundle/tlib
 	url = https://github.com/tomtom/tlib_vim.git
