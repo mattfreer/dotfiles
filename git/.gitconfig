@@ -1,0 +1,12 @@
+[user]
+	name = matt.freer
+	email = matt.freer@gmail.com
+[color]
+	ui = 1
+[merge]
+	tool = vimdiff
+[core]
+	editor = vim
+	excludesfile = ~/.gitignore
+[rerere]
+	enabled = true

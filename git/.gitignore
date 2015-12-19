@@ -1,0 +1,4 @@
+#Ignore vim swap files
+*.sw[a-z]
+
+poltergeist.png
