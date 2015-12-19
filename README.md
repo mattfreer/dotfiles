@@ -14,6 +14,7 @@ Dotfiles for various applications.
 
   ```bash
   stow -d ~/dotfiles vim
+  stow -d ~/dotfiles tmux
   ```
 3. Fetch vim submodules
 
@@ -21,6 +22,11 @@ Dotfiles for various applications.
   cd ~/.vim
   git submodule init
   git submodule update
+  ```
+4. Install tmux plugins
+
+  ```bash
+  ~/.tmux/plugins/tpm/scripts/install_plugins.sh
   ```
 
 [1]: http://www.gnu.org/software/stow/
