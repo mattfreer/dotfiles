@@ -13,6 +13,7 @@ Dotfiles for various applications.
 2. Create symlinks (Assumes you are using [GNU Stow][1]):
 
   ```bash
+  stow -d ~/dotfiles spacemacs
   stow -d ~/dotfiles vim
   stow -d ~/dotfiles tmux
   stow -d ~/dotfiles git
