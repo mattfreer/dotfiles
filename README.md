@@ -17,6 +17,7 @@ Dotfiles for various applications.
   stow -d ~/dotfiles vim
   stow -d ~/dotfiles tmux
   stow -d ~/dotfiles git
+  stow -d ~/dotfiles ruby
   ```
 3. Fetch vim submodules
 
