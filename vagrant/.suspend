@@ -1,0 +1,5 @@
+#!/bin/bash
+
+vboxmanage list runningvms | awk '{print $1}' | xargs -I % sh -c 'vboxmanage controlvm % savestate;'
+
+#vboxmanage list runningvms | awk '{print $1}' | xargs vboxmanage showvminfo | sed '/Host path/!d' | awk '{print $5'} | xargs -L 1 bash -c 'cd "$0" && pwd && ls && vagrant status'
