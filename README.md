@@ -30,6 +30,7 @@ Dotfiles for various applications.
 4. Install tmux plugins
 
   ```bash
+  cd ~/.tmux/plugins/ && git clone https://github.com/tmux-plugins/tpm
   ~/.tmux/plugins/tpm/scripts/install_plugins.sh
   ```
 
