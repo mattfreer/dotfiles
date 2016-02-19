@@ -31,8 +31,9 @@ set list
 " highlight margin after specified textwidth
 set colorcolumn=72
 
+syntax enable
 set background=dark
-colorscheme base16-default
+colorscheme solarized
 
 "always show file name at bottom of window
 set ls=2
