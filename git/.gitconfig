@@ -9,4 +9,4 @@
 	editor = vim
 	excludesfile = ~/.gitignore
 [rerere]
-	enabled = true
+	enabled = false
