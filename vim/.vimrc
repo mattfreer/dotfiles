@@ -38,8 +38,8 @@ colorscheme solarized
 "always show file name at bottom of window
 set ls=2
 
-" change the mapleader from \ to ,
-let mapleader=","
+" change the leader to <space>
+map <space> <leader>
 
 " enable jsx highlighting in .js files
 let g:jsx_ext_required = 0
