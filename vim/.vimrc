@@ -78,30 +78,6 @@ nmap <leader>w <C-W>
 " Mimic the functionality of Ctrl-R (redo)
 nnoremap U <C-R>
 
-" Mimic the functionality of $a (go to end of line, and enter insert mode)
-nnoremap <leader>l $a
-"
-" Mimic the functionality of ^i (go to start of line, and enter insert mode)
-nnoremap <leader>h ^i
-
-"find the next occurrence of "(", go to it, and enter insert mode
-nnoremap <leader>( /(<Enter>a
-
-"find the next occurrence of ")", go to it, and enter insert mode
-nnoremap <leader>) /(<Enter>%i,<Space>
-
-"find the next occurrence of "{", go to it, and enter insert mode
-nnoremap <leader>{ /{<Enter>a
-
-"find the next occurrence of "}", go to it, and enter insert mode
-nnoremap <leader>} /{<Enter>%O
-
-"find the next occurrence of "[", go to it, and enter insert mode
-nnoremap <leader>[ /[<Enter>a
-
-"find the next occurrence of "]", go to it, and enter insert mode
-nnoremap <leader>] /[<Enter>%i,<Space>
-
 "Jump backward by words (no punctuation) and enter insert mode
 nnoremap <leader>b <S-b>i
 
@@ -110,12 +86,6 @@ inoremap fd <Esc>
 
 " Mimic the functionality of the Escape key
 vnoremap fd <Esc>
-
-" Select to end of line
-vnoremap <leader>l $
-
-" Select to start of line
-vnoremap <leader>h ^
 
 " Format
 vnoremap ff =
