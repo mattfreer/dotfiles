@@ -127,13 +127,10 @@ vnoremap <leader>s y:%s/<c-r>"/
 vnoremap <leader>g y:lvimgrep /<c-r>"/jg
 
 " From Insert mode, escape to Normal mode and save
-inoremap ;k <Esc>:update<Cr>
-
-" From Insert mode, escape to Normal mode, save and return to Insert mode
-inoremap ;j <C-O>:update<Cr>
+inoremap <leader>fs <Esc>:update<Cr>
 
 " From Normal mode, save and return to Normal mode
-nnoremap ;j :update<CR>
+nnoremap <leader>fs :update<CR>
 "
 " From Normal mode, Ctrl-H mapping for vim-howdoi plugin
 "nnoremap <leader>k <C-h>
