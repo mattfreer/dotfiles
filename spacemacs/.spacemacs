@@ -258,6 +258,10 @@ layers configuration. You are free to put any user code."
   (setq-default evil-escape-key-sequence ";l")
   (define-key evil-normal-state-map "U" 'undo-tree-redo)
 
+  ;; Include underscores in word motions
+  (add-hook 'ruby-mode-hook #'(lambda () (modify-syntax-entry ?_ "w")))
+  (add-hook 'elixir-mode-hook #'(lambda () (modify-syntax-entry ?_ "w")))
+
   ;; Tab indent settings
   (setq c-basic-offset 2)
   (setq indent-tabs-mode nil)
