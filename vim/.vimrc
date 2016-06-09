@@ -106,10 +106,10 @@ nnoremap <leader>] /[<Enter>%i,<Space>
 nnoremap <leader>b <S-b>i
 
 " Mimic the functionality of the Escape key
-inoremap ;l <Esc>
+inoremap fd <Esc>
 
 " Mimic the functionality of the Escape key
-vnoremap ;l <Esc>
+vnoremap fd <Esc>
 
 " Select to end of line
 vnoremap <leader>l $
