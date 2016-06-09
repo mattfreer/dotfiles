@@ -76,7 +76,7 @@ nmap <leader>d <S-#>
 nmap <leader>w <C-W>
 
 " Mimic the functionality of Ctrl-R (redo)
-nmap <leader>r <C-R>
+nnoremap U <C-R>
 
 " Mimic the functionality of $a (go to end of line, and enter insert mode)
 nnoremap <leader>l $a
