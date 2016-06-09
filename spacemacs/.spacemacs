@@ -43,6 +43,7 @@ values."
      auto-completion
      dockerfile
      yaml
+     (shell :variables shell-default-shell 'eshell)
      shell-scripts
      )
    ;; List of additional packages that will be installed without being
