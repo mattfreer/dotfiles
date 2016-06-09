@@ -256,7 +256,6 @@ layers configuration. You are free to put any user code."
   (global-linum-mode)
   (setq-default dotspacemacs-configuration-layers '(dockerfile))
   (setq-default dotspacemacs-configuration-layers '(yaml))
-  (setq-default evil-escape-key-sequence ";l")
   (define-key evil-normal-state-map "U" 'undo-tree-redo)
 
   ;; Include underscores in word motions
