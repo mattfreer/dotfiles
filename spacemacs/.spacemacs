@@ -275,6 +275,8 @@ layers configuration. You are free to put any user code."
   (setq web-mode-code-indent-offset 2)
   (setq css-mode-css-indent-offset 2)
   (setq-default evil-shift-width 2)
+  (setq sh-basic-offset 2)
+  (setq sh-indentation 2)
   (add-to-list 'auto-mode-alist '("\\.jsx" . web-mode))
 
   ;; Disable Alt-[0-9], since my keyboard needs Alt-3 for the hash key.
