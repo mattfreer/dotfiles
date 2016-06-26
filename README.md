@@ -35,5 +35,10 @@ Dotfiles for various applications.
   cd ~/.tmux/plugins/ && git clone https://github.com/tmux-plugins/tpm
   ~/.tmux/plugins/tpm/scripts/install_plugins.sh
   ```
+5. To delete (unstow) a package
+
+  ```bash
+  stow -D lein
+  ```
 
 [1]: http://www.gnu.org/software/stow/
