@@ -4,3 +4,4 @@ spell
 resurrect/
 **/.tmux/plugins/*
 !**/.tmux/plugins/.gitkeep
+**/.boot/cache
