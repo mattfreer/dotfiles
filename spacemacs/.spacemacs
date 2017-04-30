@@ -50,7 +50,10 @@ values."
    ;; wrapped in a layer. If you need some configuration for these
    ;; packages then consider to create a layer, you can also put the
    ;; configuration in `dotspacemacs/user-config'.
-   dotspacemacs-additional-packages '()
+   dotspacemacs-additional-packages
+   '(
+     flycheck-clojure
+     )
    ;; A list of packages and/or extensions that will not be install and loaded.
    dotspacemacs-excluded-packages
    '()
@@ -215,7 +218,7 @@ values."
    dotspacemacs-line-numbers nil
    ;; If non-nil smartparens-strict-mode will be enabled in programming modes.
    ;; (default nil)
-   dotspacemacs-smartparens-strict-mode nil
+   dotspacemacs-smartparens-strict-mode t
    ;; Select a scope to highlight delimiters. Possible values are `any',
    ;; `current', `all' or `nil'. Default is `all' (highlight any scope and
    ;; emphasis the current one). (default 'all)
@@ -252,13 +255,12 @@ layers configuration. You are free to put any user code."
 
   (evil-mode 1)
   (global-linum-mode)
-  (setq-default dotspacemacs-configuration-layers '(dockerfile))
-  (setq-default dotspacemacs-configuration-layers '(yaml))
   (define-key evil-normal-state-map "U" 'undo-tree-redo)
 
   ;; Include underscores in word motions
   (add-hook 'ruby-mode-hook #'(lambda () (modify-syntax-entry ?_ "w")))
   (add-hook 'elixir-mode-hook #'(lambda () (modify-syntax-entry ?_ "w")))
+  (add-hook 'clojure-mode-hook #'(lambda () (modify-syntax-entry ?- "w")))
 
   ;; Tab indent settings
   (setq c-basic-offset 2)
