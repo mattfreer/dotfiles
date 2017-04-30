@@ -277,20 +277,8 @@ layers configuration. You are free to put any user code."
   (setq sh-indentation 2)
   (add-to-list 'auto-mode-alist '("\\.jsx" . web-mode))
 
-  ;; Disable Alt-[0-9], since my keyboard needs Alt-3 for the hash key.
-  (define-key window-numbering-keymap "\M-0" nil)
-  (define-key window-numbering-keymap "\M-1" nil)
-  (define-key window-numbering-keymap "\M-2" nil)
-  (define-key window-numbering-keymap "\M-3" nil)
-  (define-key window-numbering-keymap "\M-4" nil)
-  (define-key window-numbering-keymap "\M-5" nil)
-  (define-key window-numbering-keymap "\M-6" nil)
-  (define-key window-numbering-keymap "\M-7" nil)
-  (define-key window-numbering-keymap "\M-8" nil)
-  (define-key window-numbering-keymap "\M-9" nil)
-
-  ;; Actually allow typing # char
-  (global-set-key (kbd "M-3") `(lambda () (interactive) (insert "#")))
+  ;; Get back the UK bindings for the alt key (so Alt-3 works for hash (#) char)
+  (setq ns-alternate-modifier  'none)
 
   ;; user-defined toggles (SPC o is reserved for the user)
   (spacemacs|add-toggle auto-complete-mode
