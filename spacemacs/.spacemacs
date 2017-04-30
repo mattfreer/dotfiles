@@ -38,10 +38,8 @@ values."
      org
      colors
      ruby
-     spotify
      themes-megapack
      auto-completion
-     dockerfile
      yaml
      (shell :variables shell-default-shell 'eshell)
      shell-scripts
