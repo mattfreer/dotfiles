@@ -282,6 +282,17 @@ layers configuration. You are free to put any user code."
 
   ;; don't auto indent when entering insert mode in haskell
   (add-hook 'haskell-mode-hook (lambda () (setq evil-auto-indent nil )))
+
+  ;; To have reek smell-check the ruby files
+  (flycheck-define-checker ruby-reek
+    "A Ruby smell checker using reek See URL `https://github.com/troessner/reek'."
+    :command ("reek" "--format=xml" source-original)
+    :standard-input t
+    :error-parser flycheck-parse-checkstyle
+    :modes (enh-ruby-mode ruby-mode)
+    :next-checkers ((info . ruby-rubocop)))
+  (add-to-list 'flycheck-checkers 'ruby-reek)
+
   ;; Get back the UK bindings for the alt key (so Alt-3 works for hash (#) char)
   (setq ns-alternate-modifier  'none)
 
