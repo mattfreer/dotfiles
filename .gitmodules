@@ -10,10 +10,6 @@
 	path = vim/.vim/bundle/textobj-rubyblock
 	url = https://github.com/vim-scripts/textobj-rubyblock.git
   ignore = untracked
-[submodule "bundle/vim-matchit"]
-	path = vim/.vim/bundle/vim-matchit
-	url = https://github.com/edsono/vim-matchit.git
-  ignore = untracked
 [submodule "bundle/vim-ruby"]
 	path = vim/.vim/bundle/vim-ruby
 	url = https://github.com/vim-ruby/vim-ruby.git
