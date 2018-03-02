@@ -55,7 +55,7 @@ values."
    ;; configuration in `dotspacemacs/user-config'.
    dotspacemacs-additional-packages
    '(
-     flycheck-clojure
+     flycheck-joker
      )
    ;; A list of packages and/or extensions that will not be install and loaded.
    dotspacemacs-excluded-packages
@@ -291,6 +291,11 @@ layers configuration. You are free to put any user code."
     :modes (enh-ruby-mode ruby-mode)
     :next-checkers ((info . ruby-rubocop)))
   (add-to-list 'flycheck-checkers 'ruby-reek)
+
+  ;; clojure flychecking via joker
+  (require 'flycheck-joker)
+  (add-to-list 'flycheck-global-modes 'clojure-mode)
+  (add-to-list 'flycheck-global-modes 'clojurescript-mode)
 
   ;; Get back the UK bindings for the alt key (so Alt-3 works for hash (#) char)
   (setq ns-alternate-modifier  'none)
