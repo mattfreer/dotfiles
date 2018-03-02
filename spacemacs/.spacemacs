@@ -56,6 +56,7 @@ values."
    dotspacemacs-additional-packages
    '(
      flycheck-joker
+     inf-clojure
      )
    ;; A list of packages and/or extensions that will not be install and loaded.
    dotspacemacs-excluded-packages
@@ -263,6 +264,13 @@ layers configuration. You are free to put any user code."
   (add-hook 'ruby-mode-hook #'(lambda () (modify-syntax-entry ?_ "w")))
   (add-hook 'elixir-mode-hook #'(lambda () (modify-syntax-entry ?_ "w")))
   (add-hook 'clojure-mode-hook #'(lambda () (modify-syntax-entry ?- "w")))
+
+  (defun lumo-repl ()
+    (interactive)
+    (inf-clojure "lumo -d"))
+
+  (add-hook 'clojure-mode-hook #'inf-clojure-minor-mode)
+  (add-hook 'clojurescript-mode-hook #'inf-clojure-minor-mode)
 
   ;; Tab indent settings
   (setq c-basic-offset 2)
