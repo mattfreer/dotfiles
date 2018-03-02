@@ -41,7 +41,6 @@ values."
      org
      colors
      ruby
-     themes-megapack
      auto-completion
      yaml
      (shell :variables shell-default-shell 'eshell)
