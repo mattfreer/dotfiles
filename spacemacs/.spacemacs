@@ -268,6 +268,9 @@ layers configuration. You are free to put any user code."
   (add-hook 'elixir-mode-hook #'(lambda () (modify-syntax-entry ?_ "w")))
   (add-hook 'clojure-mode-hook #'(lambda () (modify-syntax-entry ?- "w")))
 
+  ;; Use Node as cljs repl
+  (setq cider-cljs-boot-repl "(do (require 'cljs.repl.node) (cemerick.piggieback/cljs-repl (cljs.repl.node/repl-env)))")
+
   (defun lumo-repl ()
     (interactive)
     (inf-clojure "lumo -d"))
