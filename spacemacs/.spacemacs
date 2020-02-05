@@ -28,6 +28,7 @@ values."
      spell-checking
      syntax-checking
      haskell
+     idris
      auto-completion
      (haskell :variables haskell-completion-backend 'intero)
 
