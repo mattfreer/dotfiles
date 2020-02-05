@@ -298,6 +298,19 @@ layers configuration. You are free to put any user code."
   ;; don't auto indent when entering insert mode in haskell
   (add-hook 'haskell-mode-hook (lambda () (setq evil-auto-indent nil )))
 
+  (setq haskell-process-args-ghci
+        '("-ferror-spans" "-f show-loaded-modules"))
+
+  (setq haskell-process-args-cabal-repl
+        '("--ghc-options=-ferror-spans -fshow-loaded-modules"))
+
+  (setq haskell-process-args-stack-ghci
+        '("--ghci-options=-ferror-spans -fshow-loaded-modules"
+          "--no-build" "--no-load"))
+
+  (setq haskell-process-args-cabal-new-repl
+        '("--ghc-options=-ferror-spans -fshow-loaded-modules"))
+
   ;; To have reek smell-check the ruby files
   (flycheck-define-checker ruby-reek
     "A Ruby smell checker using reek See URL `https://github.com/troessner/reek'."
